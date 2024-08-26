@@ -1,11 +1,18 @@
-# Machine Learning Iris Dataset
+# Iris-Classifier-PyTorch
 
-This repository contains a machine learning project for classifying iris flowers using the Iris dataset.
+This project uses PyTorch to build and train a neural network for classifying iris flowers based on their features. The model is designed with two hidden layers, and it leverages ReLU activations for non-linearity. The training process includes backpropagation and optimization using Adam. After training, the model's accuracy is evaluated on a test set, achieving strong performance.
 
-## Overview
+## Features
+- PyTorch implementation with custom model architecture
+- Two hidden layers with ReLU activations
+- Cross-entropy loss and Adam optimizer
+- Evaluation of model accuracy on the test set
 
-- **Data Analysis**: The project begins with exploratory data analysis of the Iris dataset, examining its structure, features, and distributions.
+## Results
+The model achieves around 96% accuracy on the test set.
 
-- **Data Visualization**: Various plotting libraries such as Matplotlib and Seaborn are utilized to visualize the dataset, providing insights into the relationships between different features and their distributions.
-
-- **Machine Learning Models**: PyTorch to implement machine learning models for classification tasks. The models are trained and evaluated using the Iris dataset to predict the class of iris flowers based on their features.
+## Dependencies
+- PyTorch
+- Pandas
+- Scikit-learn
+- Matplotlib
